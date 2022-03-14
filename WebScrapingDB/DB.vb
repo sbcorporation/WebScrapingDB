@@ -13,9 +13,9 @@ Module DB
         sqlbuilder.Server = "localhost"
         sqlbuilder.SslMode = MySqlSslMode.None
         sqlbuilder.Port = 3306
-        sqlbuilder.UserID = "masato"
-        sqlbuilder.Password = "nige12250401"
-        sqlbuilder.Database = "laratest"
+        sqlbuilder.UserID = ""
+        sqlbuilder.Password = ""
+        sqlbuilder.Database = ""
 
         Dim ConStr = sqlbuilder.ToString()
 
